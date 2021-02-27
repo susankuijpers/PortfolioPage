@@ -3,7 +3,7 @@
 
 nav {
   display: inline;
-  font-family: 'DM Serif Text', serif !important;
+  font-family: "Rollgates Fabulous" !important;
   font-size: 40px;
   letter-spacing: 0px;
   color: #000000;
@@ -14,7 +14,7 @@ nav li a.studionaam {
   text-align: left;
   display: inline;
   align-self: left;
-  font-family: 'DM Serif Text', serif !important;
+  font-family: "Rollgates Fabulous" !important;
   font-size: 40px;
   letter-spacing: 0px;
   color: #000000;
@@ -78,7 +78,7 @@ li.dropdown {
   padding-right: auto;
   display: block;
 
-  font-family: 'DM Serif Text', serif !important;
+  font-family: "Rollgates Fabulous" !important;
   font-size: 20px !important;
   ;
 
@@ -115,7 +115,7 @@ div p.introduction {
 h4 {
   text-align: center;
   font-style: normal;
-  font-family: 'DM Serif Text', serif !important;
+  font-family: "Rollgates Fabulous" !important;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;

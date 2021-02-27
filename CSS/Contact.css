@@ -78,7 +78,7 @@ li.dropdown {
   padding-right: auto;
   display: block;
 
-  font: 'DM Serif Text', serif !important;
+  font-family: "Rollgates Fabulous";
   font-size: 20px !important;;
 
   text-decoration: none;
@@ -97,7 +97,7 @@ li.dropdown {
 
 /*titel*/
 h1 {
-  font-family: 'DM Serif Text', serif !important;
+  font-family: "Rollgates Fabulous" !important;
   font-size: 50px;
   letter-spacing: 0px;
   color: black;
@@ -138,7 +138,7 @@ color: black;
 
 .about h1{
   text-align: left;
-  font-family: 'DM Serif Text', serif !important;
+  font-family: "Rollgates Fabulous" !important;
   font-size: 50px;
   letter-spacing: 0px;
   color: black;
@@ -183,7 +183,7 @@ color: black;
 
 .contact h1{
   text-align: left;
-  font-family: 'DM Serif Text', serif !important;
+  font-family: "Rollgates Fabulous" !important;
   font-size: 50px;
   letter-spacing: 0px;
   color: black;

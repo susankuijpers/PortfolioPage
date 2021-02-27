@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="nl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>EmailPage</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/eeq3wzd.css">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/EmailPage.css">
+
+    <!-- email js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+    <script>
+        $(document).ready(function () {
+            $('#contact-form').submit(function (e) {
+                const form = document.querySelector('form[id="contact-form"]');
+                const username = form.elements['user_name'].value;
+                const userMail = form.elements['user_email'].value;
+                const subject = form.elements['subject'].value;
+                const message = "email — " + userMail + '<br>' + "Summary:" + form.elements['message']
+                    .value;
+                e.preventDefault();
+                var data = {
+                    service_id: 'service_8r3g6m8',
+                    template_id: 'template_k6c3f62',
+                    user_id: 'user_o4Xiz1ai6haUFr2sw0YYP',
+                    template_params: {
+                        from_name: username,
+                        to_name: 'Susan',
+                        subject: subject,
+                        message_html: message
+                    }
+                };
+                $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+                    type: 'POST',
+                    data: JSON.stringify(data),
+                    contentType: 'application/json'
+                }).done(function () {
+                    alert('Your mail is sent!');
+                }).fail(function (error) {
+                    alert('Oops… ' + JSON.stringify(error));
+                })
+            })
+        })
+        </script>
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50"></body>
+
+    <nav>
+        <ul class="fixed-top p-3">
+            <li><a class="studionaam" href="HomePageSusan.html">Studio Suus</a></li>
+            <li class="float-right"><a href="Contact.html">Contact</a></li>
+            <li class="dropdown float-right">
+                <a class="" href="HomePageSusan.html">Projecten</a>
+
+                <div class="dropdown-content dropdown-menu-right">
+                    <a href="PortfolioBibi.html">Bibi</a>
+                    <a href="PortfolioDrukman.html">Drukman</a>
+                    <a href="PortfolioDorst.html">Dörst</a>
+                    <a href="PortfolioMultiplied.html">Multiplied</a>
+                </div>
+
+            </li>
+
+        </ul>
+    </nav>
+
+<div class="container-fluid">
+    <div class="row p-5 mt-1"></div>
+        <div class="p-4 col-lg-12 col-md-12 col-sm-12">
+            <form id="contact-form">
+                <h1>Contacteer mij</h1>
+                <p>Heb je een vraag, een leuk idee of interesse in een samenwerking?<br>
+                    Stuur mij gerust een berichtje!</p>
+                <input type="hidden" name="contact_number">
+                <br>
+                <label>Name</label>
+                <br>
+                <input type="text" name="user_name" id="user_name">
+                <br>
+                <label>Email</label>
+                <br>
+                <input type="email" name="user_email" id="user_email">
+                <br>
+                <label>Subject</label>
+                <br>
+                <input type="text" name="subject" id="subject">
+                <br>
+                <label>Message</label>
+                <br>
+                <textarea name="message" id="message"></textarea>
+                <br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+    <!-- footer -->
+    <footer>
+        2021 © All copyrights reserved by Studio Suus.
+    </footer>
+
+</body>
+<script src="HomePage.js"></script>
+
+</html>

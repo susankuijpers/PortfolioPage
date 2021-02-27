@@ -1,0 +1,236 @@
+
+/* navbar */
+
+nav {
+    display: inline;
+    font-family: 'DM Serif Text', serif !important;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3), -2px 4px 7px rgba(11,68,57,0.28);
+    
+}
+
+nav li a.studionaam {
+    text-align: left;
+    display: inline;
+    align-self: left;
+    font-family: 'DM Serif Text', serif !important;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+}
+
+ul {
+    position: sticky;
+
+    top: 0;
+}
+
+li {
+    display: inline;
+    text-align: right;
+}
+
+
+a {
+    color: white;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+li a:hover {
+
+    color: rgb(0, 4, 255);
+    text-decoration: none;
+}
+
+li a:active {
+
+    color: rgb(0, 3, 205);
+    text-decoration: none;
+}
+
+/* dropdown */
+
+li a,
+.dropbtn {
+    display: inline-block;
+    padding: 1px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+    background-color: none !important;
+}
+
+.dropdown-content {
+    /* box styling */
+    display: none;
+    position: absolute;
+    background-color: none !important;
+
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding-left: auto;
+    padding-right: auto;
+    display: block;
+
+    font-family: 'DM Serif Text', serif !important;
+    font-size: 20px !important;
+    ;
+
+    text-decoration: none;
+    text-align: right;
+    align-items: right;
+    align-self: right !important;
+}
+
+.dropdown-content a:hover {
+    background-color: none !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*titel*/
+h1 {
+    font-family: 'DM Serif Text', serif !important;
+    font-size: 50px;
+    letter-spacing: 0px;
+    color: #0B4439;
+    opacity: 1;
+
+    text-align: center;
+    font-style: normal;
+}
+
+/*ondertitel*/
+h3 {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    letter-spacing: 0px;
+    color: #0B4439;
+    text-align: center;
+}
+
+/*gewone tekst*/
+p {
+    font-weight: thin;
+    font-family: poppins, sans-serif;
+    font-size: 9px;
+    line-height: 18px;
+    color: black;
+    text-align: center;
+}
+/*branding div*/
+.branddiv {
+    box-sizing: border-box;
+    text-align: center;
+    padding-right: 410px;
+    padding-left: 410px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+
+/*fashiondiv*/
+.fashiontext{
+    box-sizing: border-box;
+    text-align: center;
+    padding-right: 410px;
+    padding-left: 410px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.branddesignimg{
+    width: 678px;
+    height: 500px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.floatybibapron {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 50px;
+}
+.floatyhemd {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/*merch header*/
+
+.merchheader {
+    background-color: #1A4A45;
+}
+.merchheader h1 {
+    color: white;
+}
+.merchheader p {
+    color: white;
+    padding-bottom: 90px;
+}
+
+/*merchgallery*/
+
+.merchgallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.merchgallery img {
+    width: 100%;
+}
+
+/**/
+
+/* responsive side */
+/* tablet format? */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* gsm format? */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* footer */
+
+footer {
+
+    text-align: left;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: bolder;
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+
+    background-color: #0B4439;;
+
+    box-shadow: 5px 5px 10px #d1d1d1, -5px -5px 10px #d8d8d8;
+}

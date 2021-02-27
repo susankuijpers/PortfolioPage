@@ -1,0 +1,234 @@
+/* navbar */
+
+nav {
+  display: inline;
+  font-family: 'DM Serif Text', serif !important;
+  font-size: 40px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+nav li a.studionaam {
+  text-align: left;
+  display: inline;
+  align-self: left;
+  font-family: 'DM Serif Text', serif !important;
+  font-size: 40px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+ul {
+  position: sticky;
+  top: 0;
+}
+
+li {
+  display: inline;
+  text-align: right;
+}
+
+
+a {
+  color: black;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+li a:hover {
+
+  color: rgb(0, 4, 255);
+  text-decoration: none;
+}
+
+li a:active {
+
+  color: rgb(0, 3, 205);
+  text-decoration: none;
+}
+
+/* dropdown */
+
+li a,
+.dropbtn {
+  display: inline-block;
+  padding: 1px;
+  text-decoration: none;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  /* box styling */
+  display: none;
+  position: absolute;
+  background-color:none;
+
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding-left: auto;
+  padding-right: auto;
+  display: block;
+
+  font-family: 'DM Serif Text', serif !important;
+  font-size: 20px !important;;
+
+  text-decoration: none;
+  text-align: right;
+  align-items: right;
+  align-self: right !important;
+}
+
+.dropdown-content a:hover {
+  background-color: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*titel*/
+h1 {
+  font-family: 'DM Serif Text', serif;
+  font-size: 50px;
+  letter-spacing: 0px;
+  opacity: 1;
+  text-align: center;
+}
+/*ondertitel*/
+h3 {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: poppins, sans-serif;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+/*gewone tekst*/
+p {
+  font-weight: thin ;
+  font-family: poppins, sans-serif;
+  font-size: 9px ;
+  line-height: 18px ;
+  text-align: center ;
+}
+
+/* intro container */
+
+.introdiv {
+  background-color: #e76b75;
+  justify-content: center !important;
+  align-content: center !important;
+
+  box-sizing: border-box;
+
+  padding-right: 410px;
+  padding-left: 410px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.introdiv h1 {
+color:white;
+}
+.introdiv h3 {
+  color:white;
+}
+.introdiv p {
+  color:white;
+}
+/*branding gallery  640px*/
+
+.brandinggallery {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+}
+.brandinggallery img{
+  width: 100%;
+}
+
+
+/*company fashion text*/
+.fashiontext {
+  padding-right: 410px;
+  padding-left: 410px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.fashiontext h1{
+  color: #e76b75;
+}
+
+.text2 p {
+  color: black;
+}
+
+/*fashiongallery  640px*/
+
+.fashiongallery {
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  }
+  
+  .fashiongallery img{
+    width: 100%;
+  }
+
+/*merch gallery  640px*/
+
+.merchgallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  }
+  
+  .merchgallery img{
+    width: 100%;
+  }
+  
+
+/**/
+
+  /* responsive side */ 
+  /* tablet format? */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* gsm format? */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+/* footer */ 
+
+footer {
+
+    text-align: center;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: bolder;
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+
+    background-color: white;
+}

@@ -1,0 +1,169 @@
+/* navbar */
+
+nav {
+    display: inline;
+    font: normal normal normal 35px/42px Rollgates Fabulous;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+nav li a.studionaam {
+    text-align: left;
+    display: inline;
+    align-self: left;
+    font: normal normal normal 45px/54px Rollgates Fabulous;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+ul {
+    position: sticky;
+    top: 0;
+}
+
+li {
+    display: inline;
+    text-align: right;
+}
+
+
+a {
+    color: black;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+li a:hover {
+
+    color: rgb(0, 4, 255);
+    text-decoration: none;
+}
+
+li a:active {
+
+    color: rgb(0, 3, 205);
+    text-decoration: none;
+}
+
+/* dropdown */
+
+li a,
+.dropbtn {
+    display: inline-block;
+    padding: 1px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    /* box styling */
+    display: none;
+    position: absolute;
+    background-color: none;
+
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding-left: auto;
+    padding-right: auto;
+    display: block;
+
+    font: Rollgates Fabulous !important;
+    font-size: 20px !important;
+    ;
+
+    text-decoration: none;
+    text-align: right;
+    align-items: right;
+    align-self: right !important;
+}
+
+.dropdown-content a:hover {
+    background-color: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* email contact form */
+
+h1 {
+    font-family: Rollgates Fabulous;
+    font-size: 50px;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+
+    text-align: center;
+    font-style: normal;
+}
+
+p {
+    font-weight: thin;
+    font-family: poppins, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: black;
+    text-align: center;
+}
+#contact-form {
+    box-sizing: border-box;
+
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+    text-align: center !important;
+
+}
+
+label {
+    font-weight: thin;
+    font-family: poppins, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: black;
+
+    text-align: center !important;
+}
+
+input {
+    height: 25px ;
+    width: 400px ;
+    
+    border: none;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow:  5px 5px 10px #d9d9d9,
+                 -5px -5px 10px #ffffff;
+}
+/* footer */
+
+footer {
+    position: sticky;
+    align-self: baseline;
+    bottom: 0;
+
+    text-align: left;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: bolder;
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+
+    background-color: white;
+}

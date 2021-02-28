@@ -3,106 +3,117 @@
 
 nav {
     display: inline;
-    font-family: "Rollgates Fabulous" !important;
-    font-size: 40px;
+    font-family: degular, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
     letter-spacing: 0px;
     color: white;
     opacity: 1;
-    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3), -2px 4px 7px rgba(11,68,57,0.28);
-    
-}
-
-nav li a.studionaam {
+    text-shadow:0px -5px 35px rgba(255,255,255,0.3), -2px 4px 7px rgba(11,68,57,0.28);
+    opacity: 1;
+  }
+  
+  nav li a.studionaam {
     text-align: left;
     display: inline;
     align-self: left;
-    font-family: "Rollgates Fabulous" !important;
+    font-family: degular, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 40px;
     letter-spacing: 0px;
     color: white;
     opacity: 1;
-}
-
-ul {
+  }
+  
+  .studionaam img {
+    height: 150px;
+    width: 150px;
+  }
+  
+  ul {
     position: sticky;
-
     top: 0;
-}
-
-li {
+  }
+  
+  li {
     display: inline;
     text-align: right;
-}
-
-
-a {
+  }
+  
+  
+  a {
     color: white;
     margin-right: 2rem;
     margin-left: 2rem;
-}
-
-li a:hover {
-
-    color: rgb(0, 4, 255);
+  }
+  
+  li a:hover {
+  
+    color: #FF7276;
     text-decoration: none;
-}
-
-li a:active {
-
-    color: rgb(0, 3, 205);
+  }
+  
+  li a:active {
+  
+    color: #FF7276;
     text-decoration: none;
-}
-
-/* dropdown */
-
-li a,
-.dropbtn {
+  }
+  
+  /* dropdown */
+  
+  li a,
+  .dropbtn {
     display: inline-block;
     padding: 1px;
     text-decoration: none;
-}
-
-li.dropdown {
+  }
+  
+  li.dropdown {
     display: inline-block;
-    background-color: none !important;
-}
-
-.dropdown-content {
+  }
+  
+  .dropdown-content {
     /* box styling */
     display: none;
     position: absolute;
-    background-color: none !important;
-
+    background-color: none;
+  
     z-index: 1;
-}
-
-.dropdown-content a {
+  }
+  
+  .dropdown-content a {
     color: white;
+    text-shadow:0px -5px 35px rgba(255,255,255,0.3), -2px 4px 7px rgba(11,68,57,0.28);
     padding-left: auto;
     padding-right: auto;
     display: block;
-
-    font-family: "Rollgates Fabulous" !important;
+  
+    font-family: degular, sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 20px !important;
     ;
-
+  
     text-decoration: none;
     text-align: right;
     align-items: right;
     align-self: right !important;
-}
-
-.dropdown-content a:hover {
-    background-color: none !important;
-}
-
-.dropdown:hover .dropdown-content {
+  }
+  
+  .dropdown-content a:hover {
+    background-color: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
     display: block;
-}
+  }
 
 /*titel*/
 h1 {
-    font-family: "Rollgates Fabulous" !important;
+    font-family: "degular", sans-serif;
+    font-weight: 700;
     font-size: 50px;
     letter-spacing: 0px;
     color: #0B4439;

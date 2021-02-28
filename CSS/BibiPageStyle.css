@@ -2,8 +2,10 @@
 
 nav {
   display: inline;
-  font-family: "Rollgates Fabulous" !important;
-  font-size: 40px;
+  font-family: degular, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
@@ -13,11 +15,18 @@ nav li a.studionaam {
   text-align: left;
   display: inline;
   align-self: left;
-  font-family: "Rollgates Fabulous" !important;
+  font-family: degular, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 40px;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
+}
+
+.studionaam img {
+  height: 150px;
+  width: 150px;
 }
 
 ul {
@@ -39,13 +48,13 @@ a {
 
 li a:hover {
 
-  color: rgb(0, 4, 255);
+  color: #FF7276;
   text-decoration: none;
 }
 
 li a:active {
 
-  color: rgb(0, 3, 205);
+  color: #FF7276;
   text-decoration: none;
 }
 
@@ -66,7 +75,7 @@ li.dropdown {
   /* box styling */
   display: none;
   position: absolute;
-  background-color:none;
+  background-color: none;
 
   z-index: 1;
 }
@@ -77,8 +86,11 @@ li.dropdown {
   padding-right: auto;
   display: block;
 
-  font-family: "Rollgates Fabulous" !important;
-  font-size: 20px !important;;
+  font-family: degular, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px !important;
+  ;
 
   text-decoration: none;
   text-align: right;
@@ -93,10 +105,10 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 /*titel*/
 h1 {
-  font-family: "Rollgates Fabulous" !important;
+  font-family: "degular", sans-serif;
+  font-weight: 700;
   font-size: 50px;
   letter-spacing: 0px;
   opacity: 1;

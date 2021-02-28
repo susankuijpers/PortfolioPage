@@ -1,10 +1,11 @@
-
 /* navbar */
 
 nav {
   display: inline;
-  font-family: "Rollgates Fabulous";
-  font-size: 40px;
+  font-family: degular, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
@@ -14,11 +15,18 @@ nav li a.studionaam {
   text-align: left;
   display: inline;
   align-self: left;
-  font-family: "Rollgates Fabulous";
+  font-family: degular, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 40px;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
+}
+
+.studionaam img {
+  height: 150px;
+  width: 150px;
 }
 
 ul {
@@ -40,13 +48,13 @@ a {
 
 li a:hover {
 
-  color: rgb(0, 4, 255);
+  color: #FF7276;
   text-decoration: none;
 }
 
 li a:active {
 
-  color: rgb(0, 3, 205);
+  color: #FF7276;
   text-decoration: none;
 }
 
@@ -67,7 +75,7 @@ li.dropdown {
   /* box styling */
   display: none;
   position: absolute;
-  background-color:none;
+  background-color: none;
 
   z-index: 1;
 }
@@ -78,8 +86,11 @@ li.dropdown {
   padding-right: auto;
   display: block;
 
-  font-family: "Rollgates Fabulous";
-  font-size: 20px !important;;
+  font-family: degular, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px !important;
+  ;
 
   text-decoration: none;
   text-align: right;
@@ -97,7 +108,8 @@ li.dropdown {
 
 /*titel*/
 h1 {
-  font-family: "Rollgates Fabulous" !important;
+  font-family: "degular", sans-serif;
+  font-weight: 700;
   font-size: 50px;
   letter-spacing: 0px;
   color: black;
@@ -132,26 +144,29 @@ color: black;
 
   padding-right: 210px;
   padding-left: 610px;
-  padding-top: 150px;
   padding-bottom: 20px;
 }
 
 .about h1{
   text-align: left;
-  font-family: "Rollgates Fabulous" !important;
+  font-family: "degular", sans-serif;
+  font-weight: 700;
   font-size: 50px;
   letter-spacing: 0px;
   color: black;
   opacity: 1;
 }
 
-/*
 .aboutimg {
+  height: 380px;
   box-sizing: border-box;
   text-align: center;
   align-items: center;
+
   padding-right: 510px;
-  padding-left: 510px;
+  padding-left: 610px;
+  padding-top: 50px;
+
 }
 /*
   box-sizing: border-box;
@@ -179,11 +194,14 @@ color: black;
   padding-left: 610px;
   padding-top: 20px;
   padding-bottom: 100px;
+
 }
+
 
 .contact h1{
   text-align: left;
-  font-family: "Rollgates Fabulous" !important;
+  font-family: "degular", sans-serif;
+  font-weight: 700;
   font-size: 50px;
   letter-spacing: 0px;
   color: black;
@@ -198,7 +216,7 @@ font-weight: bolder;
 font-family: poppins, sans-serif;
 font-weight: 300;
 font-style: normal;
-color: rgb(0, 3, 205);
+color: #FF7276;
 
 margin-right: 0rem;
 margin-left: 0rem;

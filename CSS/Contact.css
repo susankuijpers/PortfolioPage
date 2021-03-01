@@ -158,14 +158,13 @@ color: black;
 }
 
 .aboutimg {
-  height: 380px;
+  height: 280px;
   box-sizing: border-box;
   text-align: center;
   align-items: center;
 
   padding-right: 510px;
   padding-left: 610px;
-  padding-top: 50px;
 
 }
 /*
@@ -192,7 +191,6 @@ color: black;
 
   padding-right: 210px;
   padding-left: 610px;
-  padding-top: 20px;
   padding-bottom: 100px;
 
 }

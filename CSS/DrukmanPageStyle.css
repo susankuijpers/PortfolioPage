@@ -139,7 +139,7 @@ li.dropdown {
   p {
     font-weight: thin;
     font-family: poppins, sans-serif;
-    font-size: 9px;
+    font-size: 10px;
     line-height: 18px;
     color: black;
 
@@ -177,8 +177,8 @@ li.dropdown {
     text-align: center;
     padding-right: 410px;
     padding-left: 410px;
-    padding-top: 120px;
-    padding-bottom: 110px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   

@@ -127,7 +127,7 @@ h3 {
 p {
   font-weight: thin ;
   font-family: poppins, sans-serif;
-  font-size: 9px ;
+  font-size: 10px ;
   line-height: 18px ;
   text-align: center ;
 }
@@ -143,8 +143,8 @@ p {
 
   padding-right: 410px;
   padding-left: 410px;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .introdiv h1 {
 color:white;
@@ -170,8 +170,8 @@ grid-template-columns: 1fr 1fr 1fr ;
 .fashiontext {
   padding-right: 410px;
   padding-left: 410px;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .fashiontext h1{

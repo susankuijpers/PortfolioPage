@@ -163,6 +163,18 @@ p {
     align-self: center;
 }
 
+/*drukwerkgallery  640px*/
+
+.postersenzo {
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  }
+  
+  .postersenzo img{
+    width: 100%;
+    border: none;
+    border-style: none;
+  }
 
 /*drukwerk div posters & flyers*/
 

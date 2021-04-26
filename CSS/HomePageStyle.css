@@ -27,6 +27,7 @@ nav li a.studionaam {
 .studionaam img {
   height: 150px;
   width: 150px;
+  box-shadow: none !important;
 }
 ul {
   position: sticky;
